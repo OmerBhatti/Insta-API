@@ -4,6 +4,9 @@ const app=express();
 
 const port = process.env.PORT || 8080;
 
+app.get('/',(req,res) => {
+    res.send(JSON.stringify({"message":"server is Running!","status":true},null,3));
+}
 app.get('/:un',(req,res) => {
     (async () => {
     
