@@ -4,9 +4,12 @@
   "description": "Instagram API",
   "main": "insta.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node insta.js"
   },
   "author": "M Omer Sharif Bhatti",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^0.9.0"
+  }
 }
