@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node insta.js"
   },
+  "engines": {
+    "node": "14.13.0"
+  },
   "author": "M Omer Sharif Bhatti",
   "license": "ISC",
   "dependencies": {
